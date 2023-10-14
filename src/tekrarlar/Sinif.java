@@ -26,6 +26,7 @@ public class Sinif extends Okul {
     }
 
     public static void main(String[] args) {
+
         Sinif obj = new Sinif();
     }
 }

@@ -1,7 +1,7 @@
 package T_inheritanceDataTypePolymorphism;
 
 public class Child extends Deneme{
-    @Override
+
     public void method1() {
         System.out.println("Method1,Child");
     }

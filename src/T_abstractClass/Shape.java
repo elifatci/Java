@@ -1,7 +1,7 @@
 package T_abstractClass;
 
 public abstract class Shape {
-    private String color;
+     String color;
 
     public Shape(String color) {
         this.color = color;

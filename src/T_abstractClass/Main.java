@@ -11,5 +11,6 @@ public class Main {
 
             rectangle.displayColor();
             System.out.println("Rectangle Area: " + rectangle.calculateArea());
+
         }
 }

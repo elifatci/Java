@@ -2,7 +2,8 @@ package T_Polymorphism;
 
 import T_inheritance.C;
 
-public class Runner {
+public class
+Runner {
     public static void main(String[] args) {
         Grandparent obj1=new Grandparent();
         Parent obj2=new Parent();

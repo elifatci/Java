@@ -2,22 +2,38 @@ package tekrarlar;
 
 public class soru7 {
     public static void main(String[] args) {
-        /*Bir matrisin her satırının ve her sütununun toplamını bulan Java Programı yazin
-beklenilen output
-verilen matris
-1 2 3
-4 5 6
-7 8 9
-ise
 
-1. satırın toplamı: 6
-2. satırın toplamı: 15
-3. satırın toplamı: 24
-1. sütunun toplamı: 12
-2. sütunun toplamı: 15
-3. sütunun toplamı: 18
+        int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
-seklinde olmalidir*/
+        int satirSayisi = arr.length;
+        int sutunSayisi = arr[0].length;
+        int satirToplami;
+        int sutunToplami;
+
+
+        for (int i = 0; i < satirSayisi; i++) {
+            satirToplami = 0;
+
+            for (int j = 0; j < sutunSayisi; j++) {
+                satirToplami += arr[i][j];
+
+
+            }
+            System.out.println((i + 1) + ". satirin toplami :" + satirToplami);
+
+        }
+
+        for (int i = 0; i < satirSayisi; i++) {
+            sutunToplami = 0;
+            for (int j = 0; j < sutunSayisi; j++) {
+                sutunToplami += arr[j][i];
+
+            }
+            System.out.println((i + 1) + ". sutunun toplami: " + sutunToplami);
+
+        }
+
+
     }
 
 }

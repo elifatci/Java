@@ -2,25 +2,6 @@ package tekrarlar;
 
 public class soru6 {
     public static void main(String[] args) {
-        /*Soru 1:
-
-Matrisin Transpozunu Yazdir
-Bir matrisin transpozu, satırları sütunla değiştirerek bulunabilir; yani orijinal matrisin satırları, yeni matrisin sütunları haline gelecektir.
-
-Beklenilen output
-
-verilen matris
-1 2 3
-4 5 6
-7 8 9
-ise
-
-transpozu:
-1 4 7
-2 5 8
-3 6 9
-
-seklinde olmalidir*/
 
         int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
